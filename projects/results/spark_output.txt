@@ -1,0 +1,23 @@
+=== COUNTS ===
+Transactions count: 1048575
+Customers count: 7000
+
+=== TRANSACTIONS SCHEMA ===
+root
+ |-- CustomerID: string (nullable = true)
+ |-- ProductID: string (nullable = true)
+ |-- Amount: string (nullable = true)
+ |-- Date: string (nullable = true)
+
+
+=== CUSTOMERS SCHEMA ===
+root
+ |-- CustomerID: string (nullable = true)
+ |-- Age: string (nullable = true)
+ |-- Salary: string (nullable = true)
+ |-- Gender: string (nullable = true)
+ |-- Country: string (nullable = true)
+
+
+=== PARQUET VALIDATION ===
+Parquet transactions count: 1048575
