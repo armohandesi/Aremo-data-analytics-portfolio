@@ -107,27 +107,6 @@ This highlights a common limitation when training on laboratory datasets.
 
 ---
 
-## 📂 Project Structure
-
-```text
-plant-disease-classification
-│
-├── notebooks
-│   └── plant-disease-classification.ipynb
-│
-├── images
-│   └── example_predictions
-│
-├── models
-│   └── best_resnet50_model.pth
-│
-├── requirements.txt
-│
-└── README.md
-```
-
----
-
 ## 🚀 Future Improvements
 
 Possible directions to extend this project include:
